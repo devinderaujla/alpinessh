@@ -1,0 +1,13 @@
+This is a custom alpine docker image with these:
+> SSH 
+> firefox
+> mtr
+> wget
+> GUI
+> wireguard
+> noVNC running on <host-ip>:6080/
+> No password connecting to vnc for alpine user
+> username password alpine/alpine
+
+To create the image:
+sudo docker build -t <nameofyourchoice> .
